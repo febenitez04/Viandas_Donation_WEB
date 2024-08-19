@@ -148,7 +148,6 @@ body{
     border: solid 1px transparent;
 }
 
-
 /* ACLARACION */
 
 .aclaracion-campos{
@@ -167,3 +166,10 @@ body{
     min-width: 400px;
 }
 
+.search-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.5em;
+    pointer-events: none;
+    margin: 5px 0;
+}
