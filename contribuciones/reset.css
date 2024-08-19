@@ -14,7 +14,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .main__container {
     margin-top: 20px;
-    display: flex;
+    display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
@@ -26,9 +26,8 @@ input[type="number"]::-webkit-inner-spin-button {
     align-items: center;
     align-content: center;
     border-radius: 20px;
-    width: 60%;
+    width: 50%;
     justify-self: center;
-
     box-shadow: 0 0 10px #0006;
 }
 
@@ -152,7 +151,7 @@ aside{
 }
 
 .img__aside{
-    width: 300px;
+    width: 200px;
     height: 300px;
 }
 /* END ASIDE SECTION */
